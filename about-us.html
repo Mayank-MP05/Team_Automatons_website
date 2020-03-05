@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/Footer-Basic.css" />
     <link rel="stylesheet" href="assets/css/Header-Dark.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/about-us.css">
   </head>
 
   <body>
@@ -60,39 +61,77 @@
       </div>
     </nav>
     <!-- About us Container -->
-    <div class="container">
-      <div class="row text-center justify-content-center">
-        <h2>About us</h2>
+    <div class="row bg-about-us">
+      <h3 class="onImageText">About us</h3>
+    </div>
+    <div class="container about-us-onrow bg-light">
+      <!-- Row 1 = Text Intro + Image -->
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <p class="NormalText"></p>
+          <h1 class="text-success">Welcome!</h1>
+          <h2>Know More About Us</h2>
+          <hr />
+          <p class="NormalText">
+            We are Team Automatons, a group of undergraduate students from
+            Pimpri Chinchwad College of Engineering, Pune. We provide industrial
+            automation solutions and participate in international robotics
+            competition, ABU ROBOCON hosted by Asia-Pacific Broadcasting Union,
+            annually.
+          </p>
+          <button type="button" class="btn btn-success">Let's Know More</button>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./assets/img/About/team-photo.jpg" alt="" class="img img-fluid" />
+        </div>
       </div>
-      <div class="row text-center justify-content-center">
-        <p>
-          Team AUTOMATONS is functioning proactively to provide the best
-          professional environment for engineering extracurricular activities,
-          various competitions to create competent engineers with practical
-          knowledge and apt skills required to thrive in today's World.
+
+      <!-- Row 2 : Only Text -->
+      <div class="row">
+        <p class="NormalText">
+          Our team is devoted towards exploring the various possibilities of the
+          future and believe that only the advancement of science and technology
+          can achieve the true freedom and limitless possibilities of mankind.
+          We constantly strive to explore different technologies and use minimal
+          resources to create efficient robots. At this moment, our team focuses
+          on giving the machine a trace of intelligence through latest
+          mechanical, electrical and control technologies so as to build robots
+          that serve the society besides being an opportunity for students to
+          explore the field of robotics.
         </p>
       </div>
-      <hr />
-      <div class="row text-center justify-content-center">
-        <h2>Our Vision</h2>
+
+      <!-- Row 3 : Vision Card -->
+      <div class="row">
+        <div class="card vmcards">
+          <img src="./assets/img/About/vision.png" alt="" />
+          <div class="card-body">
+            <p class="card-title">
+              Vision
+            </p>
+            <p>
+              To serve Knowledge and Skills to develop individuals<br />
+              and teams with the ability to think and get self-reliance.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="row text-center justify-content-center">
-        <p>
-          To serve Knowledge and Skills to develop individuals and teams with
-          the ability to think and get self-reliance.
-        </p>
+      <!-- Row 4 : Vision Card -->
+      <div class="row">
+          <div class="card vmcards">        
+              <div class="card-body">
+                    <p class="card-title">
+                    What we do
+                    </p>
+                    <p>
+                    Every year we participate in the event ROBOCON  organised by    
+                    Asia - Pacific Broadcasting Union (ABU).
+                    Over 20 countries of Asia Pacific region participate in this event. On the National level about 120 colleges participate in this event.
+                    </p>
+                </div>
+                <img src="./assets/img/About/vision.png" alt="" />
+            </div>
       </div>
-      <hr />
-      <div class="row text-center justify-content-center">
-        <h2>What we do</h2>
-      </div>
-      <div class="row text-center justify-content-center">
-        <p>
-          Every year we participate in the event ROBOCON organised by Asia -
-          Pacific Broadcasting Union (ABU). Over 20 countries of Asia Pacific
-          region participate in this event. On the National level about 120
-          colleges participate in this event.
-        </p>
       </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
