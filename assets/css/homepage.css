@@ -20,4 +20,8 @@
   #carouselExampleControls {
     z-index: -1;
   }
+  .sponsors-card-img-hp {
+    max-width: 300px;
+    margin: 10px;
+  }
 }
