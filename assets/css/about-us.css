@@ -7,12 +7,15 @@ html {
 .bg-about-us {
   height: 400px;
   width: 100%;
-  background-image: linear-gradient(rgb(163, 163, 163), rgb(219, 219, 219));
-  background: url("./../img/About/cover-about-us.jpg");
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("./../img/About/cover-about-us.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000000;
   margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-us-onrow {
@@ -20,8 +23,8 @@ html {
 }
 
 .onImageText {
-  margin: auto 0;
-  margin-left: 20px;
+  font-family: "Pacifico", cursive;
+  color: white;
 }
 
 .vmcards {
@@ -31,8 +34,38 @@ html {
   margin: 10px 0;
 }
 
-.vmcards > img {
-  width: 200px;
-  height: 200px;
-  margin: 0;
+.card-img {
+}
+
+/*Mobile CSS Below*/
+@media only screen and (max-width: 480px) {
+  .onImageText {
+    font-size: 35px;
+  }
+  .card-img {
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border: none;
+  }
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+/*Desktop CSS Below*/
+@media only screen and (min-width: 480px) {
+  .onImageText {
+    font-size: 75px;
+  }
+  .NormalText {
+    padding: 30px;
+  }
+  .card-img {
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border: none;
+  }
 }
