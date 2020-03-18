@@ -170,3 +170,19 @@
   background-color: #666;
 }
 
+@media (min-width:600px){
+  .dot{
+    margin: auto;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    /* padding: 7px; */
+    background: black;
+  }
+}
+
+@media (max-width:600px){
+  .dot{
+    display: none;
+  }
+}
