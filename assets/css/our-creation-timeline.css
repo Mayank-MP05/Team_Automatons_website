@@ -333,14 +333,28 @@ img {
   
   /* Mobile responsive Design */
   
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 480px) {
     .timeline-centered .timeline-entry {
       width: 100%;
     }
   
     .timeline-centered {
-      width: 85%;
+      width: 95%;
       margin: auto;
+    }
+    
+    .timeline-label > p{
+        font-family: cursive;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+        
+    .col-4.text-center > p{
+        /* font-weight: bold;*/
+        font-size : 12px;
+        padding: 5px;
+        min-height: 50px;
     }
   }
   
