@@ -1,5 +1,18 @@
+html,body{
+  min-width:100%;
+  max-width:100%;
+  overflow-x: hidden;
+}
 /*Mobile CSS Below*/
 @media only screen and (max-width: 480px) {
+  .homepage_container{
+    margin: 0;
+    padding: 0;
+  }
+  .homepage_container > .row{
+    padding-left: 10px;
+    margin: 5px 0;
+  }
 }
 
 /*Desktop CSS Below*/
@@ -18,7 +31,60 @@
     z-index: -1;
   }
   .sponsors-card-img-hp {
-    max-width: 300px;
     margin: 10px;
   }
 }
+
+
+/* General Regex */
+/*
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Sen', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* Our Creation CSS */
+/*Mobile CSS Below*/
+@media only screen and (max-width: 480px) {
+  img.img-fluid.rounded-circle{
+    /*width: 70px;
+    height: 70px;*/
+    margin: 8px auto;
+  }
+}
+
+/*Desktop CSS Below*/
+@media only screen and (min-width: 480px) {
+  .list-group-item {
+    padding: 5px 10px;
+  }
+  .timeline-label > p {
+    padding: 10px;
+  }
+    
+  .col-4.text-center > p{
+    /* font-weight: bold;*/
+    font-size : 15px;
+    padding: 10px;
+    min-height: 50px;
+  }
+  img.img-fluid.rounded-circle{
+    /*width: 100px;
+    height: 100px;*/
+    margin: 10px auto;
+  }
+  
+}
+
+
+.timeline-label > p{
+    /*font-family: helvetica,arial,sans-serif;*/
+    font-size: 15px;
+}
+
+
+.timeline-label > img{
+  width: 100%;
+}
+
+

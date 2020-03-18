@@ -192,7 +192,7 @@
 }
 
 .card.hovercard .cardheader {
-  background: url("http://lorempixel.com/850/280/nature/4/");
+  background: url("./../img/Contact-us/cover-img.png");
   background-size: cover;
   height: 135px;
 }

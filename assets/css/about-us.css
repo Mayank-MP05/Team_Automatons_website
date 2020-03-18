@@ -52,6 +52,9 @@ html {
     font-size: 20px;
     font-weight: bold;
   }
+  .row > p.NormalText{
+    padding: 16px;
+  }
 }
 
 /*Desktop CSS Below*/

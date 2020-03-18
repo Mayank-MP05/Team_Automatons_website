@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Bitter:400,700"
     />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Montserrat|Sen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css" />
     <link rel="stylesheet" href="assets/css/Header-Dark.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -28,9 +29,9 @@
     <!-- Copied Navbar -->
     <nav class="navbar navbar-light navbar-expand-md">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand d-flex justify-content-center align-items-center" href="/">
          <img src="./assets/img/brand-icon.png"/>
-         Team Automatons</a
+         <h4>Team Automatons</h4></a
         ><button
           data-toggle="collapse"
           class="navbar-toggler"
@@ -77,7 +78,7 @@
  <div class="container">
          <div class="portfolio-menu mt-2 mb-4">
             <ul>
-               <li class="btn btn-outline-dark active" data-filter="*">All</li>
+               <li class="btn btn-sm btn-outline-dark active" data-filter="*" id="all-btn">All</li>
                <li class="btn btn-outline-dark" data-filter=".gen">General</li>
                <li class="btn btn-outline-dark" data-filter=".bots">Bots</li>
                <li class="btn btn-outline-dark text" data-filter=".team">Team</li>
@@ -346,6 +347,12 @@
          </footer>
        </div>
       <script src="./assets/js/gallery.js"></script>
+      <script>
+         function reload(){
+            document.getElementById('all-btn').click();
+         }
+         window.onload = reload;
+      </script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
