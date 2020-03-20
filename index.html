@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/homepage.css">
     <link rel="stylesheet" href="./assets/css/our-creation-timeline.css">
+    <link rel="stylesheet" href="./assets/css/sponsor-slider.css">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -111,7 +112,7 @@
     <!-- Homepage container -->
     <div class="container homepage_container bg-light">
       <div class="row">
-        <h3 class="text-success">Who we are</h3>
+        <h3 class="text-success">Welcome</h3>
       </div>
       <div class="row">
         <!--
@@ -235,11 +236,14 @@
         <img src="./assets/img/mathworks-blog.png" alt="" class="img img-fluid">
       </div>
     </a>
+
+
       <!-- Sponsors Section -->
-      <a href="./sponsors.html">
+
       <div class="row m-3">
         <h4 class="text-success">Our Proud Sponsors</h4>
       </div>
+      <!--
       <div class="row justify-content-center d-flex bg-light">
         <div class="col-sm-6 col-md-3 col-6">
           <img src="./assets/img/sponsors/PCCOE_LOGO.jpg" alt="" class="sponsors-card-img-hp  img rounded-circle img-fluid">
@@ -260,8 +264,21 @@
           <img src="./assets/img/sponsors/New-Dassault.jpg" alt="" class="sponsors-card-img-hp  img rounded-circle img-fluid">
         </div>
       </div>
+    -->
+
+    <section class="customer-logos slider">
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/PCCOE_LOGO.jpg"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/Spectrum Power.png"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/mathworks-logo.jpg"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/New-Dassault.jpg"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/sick-sensors.png"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/Jayashree-Encoders-logo.png"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/igus-plastics.png"></div>
+      <div class="slide justify-content-center align-items-center"><img src="./assets/img/sponsors/htf nuts and hex.png"></div>
+   </section>
+
     </div>
-  </a>
+
     <div class="footer-basic">
       <footer>
         <div class="social">
@@ -293,8 +310,32 @@
       </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
- 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+    </script>
   </body>
 </html>
 

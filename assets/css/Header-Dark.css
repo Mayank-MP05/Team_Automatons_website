@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil&display=swap');
 .header-dark {
   background: url(../../assets/img/mountain_bg.jpg) #444;
   background-size: cover;
@@ -198,3 +199,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-brand > h4{
+  font-family: 'Stardos Stencil', cursive;
+  font-size: 30px;
+}
