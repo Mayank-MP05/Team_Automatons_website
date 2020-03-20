@@ -13,6 +13,9 @@ html,body{
     padding-left: 10px;
     margin: 5px 0;
   }
+  .parallax1,.parallax2{
+    height: 100px;
+  }
 }
 
 /*Desktop CSS Below*/
@@ -35,6 +38,9 @@ html,body{
   }
   .card.vmcards{
     margin: 25px 80px;
+  }
+  .parallax1,.parallax2{
+    height: 200px;
   }
 }
 
@@ -94,12 +100,24 @@ font-family: 'Montserrat', sans-serif;
   background:#e3ebdb;
 }
 
-.parallax {
+.parallax1 {
   /* The image used */
   background: url("../img/slides/slide (6).jpg");
   /* Set a specific height */
-  height: 200px;
-  opacity: 0.3;
+
+  opacity: 0.5;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background: url("../img/slides/slide\ \(4\).JPG");
+  /* Set a specific height */
+
+  opacity: 0.5;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
