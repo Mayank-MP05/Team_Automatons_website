@@ -33,6 +33,9 @@ html,body{
   .sponsors-card-img-hp {
     margin: 10px;
   }
+  .card.vmcards{
+    margin: 25px 80px;
+  }
 }
 
 
