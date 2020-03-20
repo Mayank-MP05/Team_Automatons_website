@@ -6,7 +6,7 @@
 
 .navbar-brand > img{
   width: 64px;
-  height: 64px;
+  /*height: 64px;*/
 }
 
 @media (min-width:768px) {
@@ -183,6 +183,9 @@
 
 @media (max-width:600px){
   .dot{
+    display: none;
+  }
+  .navbar-brand > h4{
     display: none;
   }
 }
