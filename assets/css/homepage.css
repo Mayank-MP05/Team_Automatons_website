@@ -18,7 +18,7 @@ html,body{
 /*Desktop CSS Below*/
 @media only screen and (min-width: 480px) {
   .homepage_container {
-    margin-top: -200px;
+    margin-top: 20px;
     z-index: 100;
     padding: 50px;
   }
@@ -87,4 +87,19 @@ font-family: 'Montserrat', sans-serif;
   width: 100%;
 }
 
+.bg-blue{
+  background:#e3ebdb;
+}
 
+.parallax {
+  /* The image used */
+  background: url("../img/slides/slide (6).jpg");
+  /* Set a specific height */
+  height: 200px;
+  opacity: 0.3;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
