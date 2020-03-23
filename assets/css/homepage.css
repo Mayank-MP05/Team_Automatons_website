@@ -14,7 +14,10 @@ html,body{
     margin: 5px 0;
   }
   .parallax1,.parallax2{
-    height: 100px;
+    height: 400px;
+  }
+  .arrow-icon{
+    width: 7%;
   }
 }
 
@@ -40,7 +43,7 @@ html,body{
     margin: 25px 80px;
   }
   .parallax1,.parallax2{
-    height: 200px;
+    height: 500px;
   }
 }
 
