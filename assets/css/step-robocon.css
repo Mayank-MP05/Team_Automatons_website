@@ -212,3 +212,9 @@ body {
 }
 
 }
+
+
+ul.list-group li{
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+}

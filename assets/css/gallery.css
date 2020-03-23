@@ -5,7 +5,6 @@
   display: inline-block;
   margin: 0;
   list-style: none;
-  padding: 10px 15px;
   cursor: pointer;
   -webkit-transition: all 05s ease;
   -moz-transition: all 05s ease;
@@ -27,4 +26,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*Mobile CSS Below*/
+@media only screen and (max-width: 480px) {
+  .portfolio-menu ul li {
+    padding: 2px 7px;
+  }
+}
+
+/*Desktop CSS Below*/
+@media only screen and (min-width: 480px) {
+  .portfolio-menu ul li {
+    padding: 10px 15px;
+  }
 }
