@@ -192,11 +192,21 @@
 }
 
 .card.hovercard .cardheader {
-  background: url("./../img/Contact-us/cover-img.png");
+  /*background: url("./../img/Contact-us/cover-img.png");*/
   background-size: cover;
   height: 135px;
 }
 
+/* Backgrounds */
+.cardheader.comp{
+  background: url("./../img/Contact-us/computer-bg.jpeg");
+}
+.cardheader.team{
+  background: url("./../img/Contact-us/cover-img.png");
+}
+.cardheader.mech{
+  background: url("./../img/Contact-us/mechanical-bg.jpg");
+}
 .card.hovercard .avatar {
   position: relative;
   top: -50px;
