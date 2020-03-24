@@ -58,3 +58,21 @@
   margin-bottom: 0;
 }
 
+.social a:nth-child(1) {
+  background: #8a3ab9;
+  color: white;
+}
+
+.social a:nth-child(2) {
+  background: red;
+  color: white;
+}
+
+.social a:nth-child(3) {
+  background: #0e76a8;
+  color: white;
+}
+.social a:nth-child(4) {
+  background:  #3b5998;
+  color: white;
+}
