@@ -85,12 +85,21 @@
 <script>
    function reload(){
       document.getElementById('all-btn').click();
-      console.log('refresher');
+      /*console.log('refresher');*/
    }
    for(let i = 0 ; i < 20 ; i++)
       setTimeout(reload, 300);
    window.onload = reload;
 </script>
+
+<div id="loader-wrapper">
+   <div id="loader"></div>
+
+   <div class="loader-section section-left"></div>
+   <div class="loader-section section-right"></div>
+
+</div>
+
  <div class="container">
          <div class="portfolio-menu mt-2 mb-4">
             <ul>
@@ -363,8 +372,20 @@
            <p class="copyright">All rights Reserved Team Automatons<br>Designed with ❤️ by <a href="https://github.com/Mayank-MP05/">@Mayank_MP5</a></p>
          </footer>
        </div>
-      <script src="./assets/js/gallery.js"></script>
+       <script>
+         $('body').toggleClass('loaded');
 
+         $(document).ready(function() {
+ 
+            setTimeout(function(){
+                $('body').addClass('loaded');
+                $('h1').css('color','#222222');
+            }, 3000);
+         
+        });
+       </script>
+   <script src="./assets/js/gallery.js"></script>
+   <script src="./assets/js/load-check.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
