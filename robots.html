@@ -77,14 +77,33 @@
     
     <!-- Our Creation Container -->
     <div class="container">
-      <div class="row text-center justify-content-center m-3">
+      <div class="row map-row">
+        <img src="./assets/img/Competitions/our-journey.png" alt="" class="img img-fluid w-100" id="base-img">
+
+        <a href="#y15">
+          <button class="btn btn-outline-dark btn-on-img b1 hvr-radial-out" id="b1">2015</button>
+        </a>
+        <a href="#y16">
+          <button class="btn btn-outline-dark btn-on-img b2 hvr-radial-out" id="b2">2016</button>
+        </a>
+        <a href="#y17">
+          <button class="btn btn-outline-dark btn-on-img b3 hvr-radial-out" id="b3">2017</button>
+        </a>
+        <a href="#y18">
+          <button class="btn btn-outline-dark btn-on-img b4 hvr-radial-out" id="b4">2018</button>
+        </a>
+        <a href="#y19">
+          <button class="btn btn-outline-dark btn-on-img b4 hvr-radial-out" id="b5">2019</button>
+        </a>
+      </div>
+      <div class="row text-center justify-content-center" id="p-top-row">
         <h3 class="page-heading">Our Creations</h3>
       </div>
       <hr class="my-4 m-3" />
       <!-- #1 : 2019 Roboconn  -->
       <div class="timeline-centered m-3">
         <article class="timeline-entry">
-          <div class="timeline-entry-inner">
+          <div class="timeline-entry-inner" id="y19">
             <div class="timeline-icon bg-success">
               <i class="entypo-feather"></i>
             </div>
@@ -141,7 +160,7 @@
         </article>
 
         <!--#2 : 2018 Roboconn -->
-        <article class="timeline-entry left-aligned">
+        <article class="timeline-entry left-aligned" id="y18">
           <div class="timeline-entry-inner">
             <div class="timeline-icon bg-success">
               <i class="entypo-feather"></i>
@@ -194,7 +213,7 @@
         </article>
 
         <!--#3 : 2017 Roboconn -->
-        <article class="timeline-entry">
+        <article class="timeline-entry" id="y17">
           <div class="timeline-entry-inner">
             <div class="timeline-icon bg-success">
               <i class="entypo-feather"></i>
@@ -247,7 +266,7 @@
         </article>
 
         <!--#4 : 2016 Roboconn -->
-        <article class="timeline-entry left-aligned">
+        <article class="timeline-entry left-aligned" id="y16">
           <div class="timeline-entry-inner">
             <div class="timeline-icon bg-success">
               <i class="entypo-feather"></i>
@@ -300,7 +319,7 @@ CLEAN ENERGY RECHARGING THE WORLD
         </article>
 
         <!--#5 : 2015 Robocon -->
-        <article class="timeline-entry">
+        <article class="timeline-entry" id="y15">
           <div class="timeline-entry-inner">
             <div class="timeline-icon bg-success">
               <i class="entypo-feather"></i>
@@ -388,5 +407,7 @@ ROBOMINTON - BADMINTON  PLAYING ROBOT
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/our-robocon-journey.js"></script>
+    <script src="./assets/js/smoothscroll.js"></script>
   </body>
 </html>
