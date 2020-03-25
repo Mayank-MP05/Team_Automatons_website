@@ -7,7 +7,7 @@
         const arr = [
             {
                 left : 108,
-                top : 327
+                top : 310
             },
             {
                 left : 489,
