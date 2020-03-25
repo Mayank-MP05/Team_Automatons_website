@@ -1,0 +1,37 @@
+body{
+    background : rgba(242, 242, 242, 0.6)
+}
+
+.bg-color{
+    background-color: #f2f2f2;
+}
+
+.text-violet{
+    color:#a87bc0;
+}
+
+.btn-yellow{
+    background-color: #e4b625;
+    color: white;
+    font-weight: 600;
+}
+.text-right.bg-colorX{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+/*Mobile CSS Below*/
+@media only screen and (max-width: 480px) {
+    .txt-bold{
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
+  
+  /*Desktop CSS Below*/
+@media only screen and (min-width: 480px) {
+    .txt-bold{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
