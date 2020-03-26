@@ -20,10 +20,21 @@ body{
     bottom: 0;
     right: 0;
 }
+
+body{
+    overflow: hidden;
+    max-width: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: #a87bc0;
+    color: #e4e4e4;
+}
 /*Mobile CSS Below*/
 @media only screen and (max-width: 480px) {
     .txt-bold{
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
     }
 }
