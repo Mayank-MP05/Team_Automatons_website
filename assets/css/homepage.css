@@ -108,7 +108,7 @@ font-family: 'Montserrat', sans-serif;
   background: url("../img/slides/slide (6).jpg");
   /* Set a specific height */
 
-  opacity: 0.5;
+  opacity: 0.7;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;

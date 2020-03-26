@@ -125,7 +125,6 @@ img {
   .timeline-entry-inner
   .timeline-label {
   margin-left: 0;
-  margin-right: 70px;
 }
 
 .timeline-centered
@@ -272,7 +271,6 @@ img {
   position: relative;
   background: #f5f5f6;
   /*padding: 1.7em;*/
-  margin-left: 70px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -333,7 +331,7 @@ img {
 
 /* Mobile responsive Design */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .timeline-centered .timeline-entry {
     width: 100%;
   }
@@ -341,5 +339,33 @@ img {
   .timeline-centered {
     width: 85%;
     margin: auto;
+  }
+
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+    margin-left: 30px;
+  }
+    .timeline-centered
+    .timeline-entry.left-aligned
+    .timeline-entry-inner
+    .timeline-label {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+}
+
+
+/* Desktop Design */
+
+@media only screen and (min-width: 480px) {
+
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+    margin-left: 70px;
+  }
+    .timeline-centered
+    .timeline-entry.left-aligned
+    .timeline-entry-inner
+    .timeline-label {
+    margin-right: 70px;
   }
 }
