@@ -1,12 +1,9 @@
 /*Mobile CSS Below*/
 @media only screen and (max-width: 480px) {
-    .middle{
-        margin-top:24px
-    }
     .col-4.text-center > p{
         /* font-weight: bold;*/
         font-size : 12px;
-        min-height: 50px;
+        min-height: 20px;
     }
 
 }
@@ -22,10 +19,15 @@
     .col-4.text-center > p{
         font-size: 15px;
     }  
+
 }
-  
+ 
+.col-4.text-center{
+  padding: 0 5px;
+}  
+
 .p--5{
-margin-bottom: -50px;
+margin-bottom: -30px;
 }
 
 .p--5 > div > img{
