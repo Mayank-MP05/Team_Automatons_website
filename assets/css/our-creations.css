@@ -5,6 +5,9 @@
     height: 70px;
     margin: 8px auto;
   }
+  .col-md-7 > p{
+    padding: 10px;
+  } 
 }
 
 /*Desktop CSS Below*/

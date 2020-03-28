@@ -3,6 +3,11 @@ html,body{
   max-width:100%;
   overflow-x: hidden;
 }
+
+.bg-diff{
+  background: #e9efe1;
+}
+
 /*Mobile CSS Below*/
 @media only screen and (max-width: 480px) {
   .homepage_container{
